@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<audio_effects_conf version="2.0" xmlns="http://schemas.android.com/audio/audio_effects_conf/v2_0">
+
+    <libraries>
+        <library name="vr360audio" path="libgearvr.so"/>
+    </libraries>
+
+    <effects>
+        <effect name="vr3d" library="vr360audio" uuid="e6388202-e7a4-4c72-b68a-332eeeba269b"/>
+    </effects>
+
+</audio_effects_conf>
