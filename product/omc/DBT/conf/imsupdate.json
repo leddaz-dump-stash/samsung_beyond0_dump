@@ -1,0 +1,21 @@
+{
+    "update_version": 1,
+    "note": "Update to TLS 1.2 / User agent 7",
+    "imsprofile_update": {
+        "profile": [
+            {
+                "name": "Telefonica for Germany RCS",
+                "mnoname": "Telefonica_DE",
+                "ssl_type": 4
+            }
+        ]
+    },
+    "globalsettings_update": {
+        "globalsetting": [
+            {
+                "mnoname": "Telefonica_DE",
+                "rcs_client_version" : "7.0"
+            }
+        ]
+    }
+}

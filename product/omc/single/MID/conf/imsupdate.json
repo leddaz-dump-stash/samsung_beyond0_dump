@@ -1,0 +1,24 @@
+{
+  "update_version": 2,
+  "note": "ImsSwitch update for Volte & Vilte for Touch Lebanon & VoLTE for Zain JO    -   Disable Volte & Vilte for Touch Lebanon & Enable VoLTE for Zain JO",
+  "imsswitch_update":
+  {
+    "defaultswitch": {
+    },
+    "imsswitch": [
+      {
+        "mnoname": "Zain_JO",
+        "enableIms": true,
+        "enableServiceVolte": true
+      },
+      {
+        "mnoname": "Touch_LB",
+        "enableIms": false,
+        "enableServiceVolte": false,
+        "enableServiceVilte": false
+      }
+    ]
+  }
+}
+
+

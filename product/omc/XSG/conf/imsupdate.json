@@ -1,0 +1,15 @@
+{
+  "update_version": 1,
+  "note": "Enable VoWifi for Viva_BH",
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Viva_BH",
+        "enableIms": true,
+        "enableServiceVolte": true,
+        "enableServiceVowifi": true,
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}

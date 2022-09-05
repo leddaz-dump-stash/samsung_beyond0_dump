@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G970F_OXM_TTT_12_0007</version>
+  <model>
+    <name>SM-G970F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0003</customerEdition>
+    <carrierListVersion>120021</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>364</mcc>
+      <mnc>49</mnc>
+      <networkName>ALIV</networkName>
+    </carrier>
+    <carrier>
+      <mcc>374</mcc>
+      <mnc>12</mnc>
+      <networkName>TTT_TT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>374</mcc>
+      <mnc>120</mnc>
+      <networkName>TTT_TT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>374</mcc>
+      <mnc>129</mnc>
+      <networkName>TTT_TT</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

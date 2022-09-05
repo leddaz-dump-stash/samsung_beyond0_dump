@@ -1,0 +1,14 @@
+# beyond0ltexx-user 12 SP1A.210812.016 G970FXXSGHVH2 release-keys
+- manufacturer: 
+- platform: universal9820
+- codename: beyond0
+- flavor: beyond0ltexx-user
+- release: 12
+- id: SP1A.210812.016
+- incremental: G970FXXSGHVH2
+- tags: release-keys
+- fingerprint: samsung/beyond0ltexx/beyond0:12/SP1A.210812.016/G970FXXSGHVH2:user/release-keys
+- is_ab: false
+- brand: samsung
+- branch: beyond0ltexx-user-12-SP1A.210812.016-G970FXXSGHVH2-release-keys
+- repo: samsung_beyond0_dump
