@@ -1,0 +1,6 @@
+libhumantracking.arcsoft.so
+libPortraitDistortionCorrection.arcsoft.so
+libPortraitDistortionCorrectionCali.arcsoft.so
+libface_landmark.arcsoft.so
+libveengine.arcsoft.so
+libFacialAttributeDetection.arcsoft.so
