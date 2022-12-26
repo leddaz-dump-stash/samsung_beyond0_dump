@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MediaCodecs>
+    <Encoders>
+        <MediaCodec name="OMX.Exynos.AVC.Encoder.secure" type="wfd/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Limit name="size" min="32x32" max="8192x8192" />  <!-- 3840x2160, 120fps -->
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="1-262144" />
+            <Limit name="blocks-per-second" min="1" max="3888000" />
+            <Limit name="bitrate" range="1-120000000" />
+            <!-- performance point : size[SD, HD, FHD, UHD], fps[24, 25, 30, 50, 60, 120, 200, 240] -->
+            <Limit name="performance-point-1920x1080" range="240" />
+            <Limit name="performance-point-3840x2160" range="120" />
+            <Limit name="concurrent-instances" max="2" />
+            <Feature name="can-swap-width-height" value="1" />
+        </MediaCodec>
+        <MediaCodec name="OMX.Exynos.AVC.WFD.Encoder" type="wfd/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Limit name="size" min="32x32" max="8192x8192" />  <!-- 3840x2160, 120fps -->
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="1-262144" />
+            <Limit name="blocks-per-second" min="1" max="3888000" />
+            <Limit name="bitrate" range="1-120000000" />
+            <!-- performance point : size[SD, HD, FHD, UHD], fps[24, 25, 30, 50, 60, 120, 200, 240] -->
+            <Limit name="performance-point-1920x1080" range="240" />
+            <Limit name="performance-point-3840x2160" range="120" />
+            <Limit name="concurrent-instances" max="1" />
+            <Feature name="can-swap-width-height" value="1" />
+        </MediaCodec>
+        <MediaCodec name="OMX.Exynos.AVC.WFD.Encoder.secure" type="wfd/avc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Limit name="size" min="32x32" max="8192x8192" />  <!-- 3840x2160, 120fps -->
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="16x16" />
+            <Limit name="block-count" range="1-262144" />
+            <Limit name="blocks-per-second" min="1" max="3888000" />
+            <Limit name="bitrate" range="1-120000000" />
+            <!-- performance point : size[SD, HD, FHD, UHD], fps[24, 25, 30, 50, 60, 120, 200, 240] -->
+            <Limit name="performance-point-1920x1080" range="240" />
+            <Limit name="performance-point-3840x2160" range="120" />
+            <Limit name="concurrent-instances" max="1" />
+            <Feature name="can-swap-width-height" value="1" />
+        </MediaCodec>
+        <MediaCodec name="OMX.Exynos.HEVC.WFD.Encoder" type="wfd/hevc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Limit name="size" min="64x64" max="8192x8192" />  <!-- 3840x2176, 120fps -->
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="32x32" />
+            <Limit name="block-count" range="1-65536" />
+            <Limit name="blocks-per-second" min="1" max="979200" />
+            <Limit name="bitrate" range="1-120000000" />
+            <!-- performance point : size[SD, HD, FHD, UHD], fps[24, 25, 30, 50, 60, 120, 200, 240] -->
+            <Limit name="performance-point-1920x1080" range="240" />
+            <Limit name="performance-point-3840x2160" range="120" />
+            <Limit name="concurrent-instances" max="1" />
+            <Feature name="can-swap-width-height" value="1" />
+        </MediaCodec>
+        <MediaCodec name="OMX.Exynos.HEVC.WFD.Encoder.secure" type="wfd/hevc" >
+            <Quirk name="requires-allocate-on-input-ports" />
+            <Quirk name="requires-allocate-on-output-ports" />
+            <Limit name="size" min="64x64" max="8192x8192" />  <!-- 3840x2176, 120fps -->
+            <Limit name="alignment" value="2x2" />
+            <Limit name="block-size" value="32x32" />
+            <Limit name="block-count" range="1-65536" />
+            <Limit name="blocks-per-second" min="1" max="979200" />
+            <Limit name="bitrate" range="1-120000000" />
+            <!-- performance point : size[SD, HD, FHD, UHD], fps[24, 25, 30, 50, 60, 120, 200, 240] -->
+            <Limit name="performance-point-1920x1080" range="240" />
+            <Limit name="performance-point-3840x2160" range="120" />
+            <Limit name="concurrent-instances" max="1" />
+            <Feature name="can-swap-width-height" value="1" />
+        </MediaCodec>
+    </Encoders>
+</MediaCodecs>
