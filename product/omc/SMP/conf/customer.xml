@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomerData>
+  <GeneralInfo>
+    <CSCEdition>ED0001</CSCEdition>
+    <Country>WorldWide</Country>
+    <CountryISO>WW</CountryISO>
+    <Region>ALL</Region>
+    <SalesCode>SMP</SalesCode>
+  </GeneralInfo>
+  <Settings>
+    <Main>
+      <Security>
+        <OneSIMLock>none</OneSIMLock>
+      </Security>
+      <Phone>
+        <DefLanguageNoSIM>en_GB</DefLanguageNoSIM>
+      </Phone>
+    </Main>
+  </Settings>
+</CustomerData>

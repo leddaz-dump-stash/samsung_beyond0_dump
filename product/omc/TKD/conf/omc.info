@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G970F_OXM_TKD_QQ_0003</version>
+  <model>
+    <name>SM-G970F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <cscfeature>yes</cscfeature>
+    <cscfeaturenetwork>yes</cscfeaturenetwork>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>3</carrierCount>
+    <carrier>
+      <mcc>603</mcc>
+      <mnc>01</mnc>
+      <networkName>Mobilis</networkName>
+    </carrier>
+    <carrier>
+      <mcc>603</mcc>
+      <mnc>02</mnc>
+      <networkName>Djezzy</networkName>
+    </carrier>
+    <carrier>
+      <mcc>603</mcc>
+      <mnc>03</mnc>
+      <networkName>Ooredoo</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

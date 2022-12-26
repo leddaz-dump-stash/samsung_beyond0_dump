@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G970F_OXM_MAT_12_0001</version>
+  <model>
+    <name>SM-G970F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0001</customerEdition>
+    <carrierListVersion>120019</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>1</carrierCount>
+    <carrier>
+      <mcc>604</mcc>
+      <mnc>01</mnc>
+      <networkName>IAM</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

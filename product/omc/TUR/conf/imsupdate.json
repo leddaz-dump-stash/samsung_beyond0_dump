@@ -1,0 +1,17 @@
+{
+  "update_version": 1,
+  "note": "Enable EVS for Turk TeleKom PLM [ P210602-06459 ]",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "AVEA Turkey",
+        "mnoname": "AVEA_TR",
+        "audio_codec": "EVS,AMRBE-WB,AMR-WB,AMRBE,AMR,DTMFWB,DTMF",
+        "enable_evs_codec": true,
+        "evs_bit_rate_send": "5.9-24.4",
+        "evs_bit_rate_receive": "5.9-24.4",
+        "evs_channel_aware_receive": "2"
+      }
+    ]
+  }
+}

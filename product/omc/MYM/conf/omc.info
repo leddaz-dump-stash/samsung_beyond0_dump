@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<omcInfo>
+  <contentType>0</contentType>
+  <version>SAOMC_SM-G970F_OXM_MYM_12_0008</version>
+  <model>
+    <name>SM-G970F</name>
+  </model>
+  <catalog>
+    <customer>yes</customer>
+    <customerEdition>ED0006</customerEdition>
+    <carrierListVersion>120018</carrierListVersion>
+    <cscfeature>yes</cscfeature>
+    <carrierfeature>yes</carrierfeature>
+    <cp>no</cp>
+    <imsupdate>no</imsupdate>
+  </catalog>
+  <carrierList>
+    <carrierCount>4</carrierCount>
+    <carrier>
+      <mcc>414</mcc>
+      <mnc>01</mnc>
+      <networkName>MPT</networkName>
+    </carrier>
+    <carrier>
+      <mcc>414</mcc>
+      <mnc>05</mnc>
+      <networkName>Ooredoo</networkName>
+    </carrier>
+    <carrier>
+      <mcc>414</mcc>
+      <mnc>06</mnc>
+      <networkName>ATOM</networkName>
+    </carrier>
+    <carrier>
+      <mcc>414</mcc>
+      <mnc>09</mnc>
+      <networkName>MYTEL</networkName>
+    </carrier>
+  </carrierList>
+</omcInfo>

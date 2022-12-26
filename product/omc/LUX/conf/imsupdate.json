@@ -1,0 +1,56 @@
+{
+  "update_version": 4,
+  "note": "POST VoLTE Roaming enable; Proximus_BE RCS enable, VoLTE roaming and enc_algo for Telenet_BE, Orange_BE and Orange_LU smsip, VoLTE roaming",
+  "imsprofile_update": {
+    "profile": [
+      {
+        "name": "Post VoLTE",
+        "mnoname": "Post_LU",
+        "support_roaming": true
+      },
+      {
+        "name": "Telenet IMS",
+        "mnoname": "Telenet_BE",
+        "support_roaming": true,
+        "enc_algo": "all"
+      },
+      {
+        "name": "ORANGE Belgium for IMS PDN",
+        "mnoname": "Orange_BE",
+        "support_roaming": true
+      },
+      {
+        "name": "ORANGE Belgium Emergency",
+        "mnoname": "Orange_BE",
+        "support_roaming": true
+      },
+      {
+        "name": "ORANGE Luxembourg",
+        "mnoname": "Orange_LU",
+        "support_roaming": true
+      },
+      {
+        "name": "ORANGE Luxembourg Emergency",
+        "mnoname": "Orange_LU",
+        "support_roaming": true
+      }
+    ]
+  },
+  "imsswitch_update": {
+    "imsswitch": [
+      {
+        "mnoname": "Proximus_BE",
+        "enableServiceRcs": true,
+        "enableServiceRcschat": true
+      },
+      {
+        "mnoname": "Orange_BE",
+        "enableServiceSmsip": true
+      },
+      {
+        "mnoname": "Orange_LU",
+        "enableServiceSmsip": true
+      }
+    ]
+  }
+}
